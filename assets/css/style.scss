@@ -38,29 +38,29 @@ a.navbar-item.is-active {
 }
 
 
-#hero {
-    background: rgb(0, 0, 0);
-    background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+// #hero {
+//     background: rgb(0, 0, 0);
+//     background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+//     background: -webkit-linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+//     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.75) 100%);
+//     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
-    &::before {
-        filter: blur(0.15rem);
-        background-image: url({{site.heroimage}});
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-        position: absolute;
-        opacity: 0.25;
-        content: "";
-    }
-}
+//     &::before {
+//         filter: blur(0.15rem);
+//         background-image: url(../images/hero.jpg);
+//         background-position: center;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         background-attachment: fixed;
+//         top: 0px;
+//         right: 0px;
+//         bottom: 0px;
+//         left: 0px;
+//         position: absolute;
+//         opacity: 0.25;
+//         content: "";
+//     }
+// }
 .title {
     margin: auto 0.75rem!important;
 }
@@ -323,7 +323,7 @@ a.navbar-item.is-active {
         hr{
             background-color: grey;
         }
-        img, iframe {
+        iframe {
             max-width: calc(100% - 25vw);
             margin: 0.25rem auto;
             @media (max-width: 768px) {
@@ -352,4 +352,27 @@ a.navbar-item.is-active {
             display: inline-block;
         }
     }
+}
+
+.columns.is-custom-gapless {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0
+}
+
+.columns.is-custom-gapless>.column {
+    margin: 0;
+    // padding: 0!important;
+}
+
+.columns.is-custom-gapless:not(:last-child) {
+    margin-bottom: 1.5rem
+}
+
+.columns.is-custom-gapless:last-child {
+    margin-bottom: 0
+}
+
+.column {
+    padding: 1rem 0.5rem;
 }

@@ -2,6 +2,27 @@
     {% include meta.html %}
     <title>{{site.title}}</title>
     <link rel="stylesheet" href="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}/assets/css/style.css">
-    <script src="https://kit.fontawesome.com/6a97161b76.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ec9848b40d.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% else %}{{ 'assets/images/logo.png' | absolute_url }}{% endif %}" type="image/x-icon">
+    <style>
+        #hero {
+            position: relative;
+            height: 300px;
+        }
+        #hero::before {
+            filter: blur(0rem);
+            background-image: url('{{site.url}}{{site.baseurl}}/assets/images/{{site.heroimage}}');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            position: absolute;
+            opacity: 1;
+            content: "";
+        }
+    </style>
 </head>
