@@ -16,6 +16,8 @@ I designed and built a DIY sous vide machine from scratch, combining embedded sy
 - **Accurate Temperature Control**: A thermistor, waterproofed using hot glue and heat shrink, provides real-time feedback to a control system, ensuring stable water temperature within 0.5 °C of the target.
 - **User-Friendly Interface**: An I2C OLED display paired with a joystick allows users to easily set the temperature and cooking time.
 
+**Check out the code on [GitHub](https://github.com/cvgjnh/sous-vide-machine)!**
+
 ---
 
 ## Technologies and Tools
