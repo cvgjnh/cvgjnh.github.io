@@ -19,7 +19,7 @@ The project involved designing and integrating the following subcomponents:
 
 ### Key Highlights:
 - Designed and tested all circuit components mentioned above.
-- Calibrated the ADC to ensure accurate voltage-to-digital conversion within a functional range of 0.2V to 3.9V.
+- Calibrated the ADC to ensure accurate voltage-to-digital conversion within a functional range of 0-5V.
 - Debugged and resolved critical issues like improper waveforms, incorrect counting, and voltage calibration errors.
 - Developed a timing diagram to verify and visualize the ADC's operation.
 
