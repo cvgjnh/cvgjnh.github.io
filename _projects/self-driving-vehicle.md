@@ -72,8 +72,3 @@ With a partner, I developed a self-driving car for the ENPH 353 competition. The
     </div>
 </section>
 
----
-
-
-
-Explore the project repository on [GitHub](https://github.com/cvgjnh/self-driving-vehicle-controller).
