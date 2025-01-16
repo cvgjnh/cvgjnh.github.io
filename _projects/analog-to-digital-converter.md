@@ -3,7 +3,7 @@ title: Analog-to-Digital Converter
 layout: project
 image: ../assets/images/analog-to-digital-converter/circuit.png
 link: /projects/analog-to-digital-converter/
-
+order: 2
 ---
 
 ## Overview

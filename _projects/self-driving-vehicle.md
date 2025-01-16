@@ -3,6 +3,7 @@ title: Self-Driving Vehicle
 layout: project
 image: ../assets/images/self-driving-vehicle/competition_diagram_cropped.png
 link: /projects/self-driving-vehicle
+order: 3
 ---
 
 ## Overview

@@ -3,7 +3,7 @@ title: Sous Vide Machine
 layout: project
 image: ../assets/images/sous-vide-machine/setup.jpg
 link: /projects/sous-vide-machine/
-
+order: 4
 ---
 
 ## Overview

@@ -3,7 +3,7 @@ title: Autonomous Robot
 layout: project
 image: ../assets/images/autonomous-robot/robot2.jpg
 link: /projects/autonomous-robot/
-
+order: 1
 ---
 
 
