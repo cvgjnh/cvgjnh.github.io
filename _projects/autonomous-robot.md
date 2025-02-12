@@ -10,7 +10,7 @@ order: 1
 ## Overview
 
 
-Our team of four designed and built an autonomous robot from scratch capable of traversing an obstacle course filled with rough terrain, traps, and chasms. The goal: retrieve treasures and deliver them to the finish line as part of the ENPH 253 robot competition ([full details here](https://docs.google.com/document/d/1w-FPY5TIh77HwoJq-ieJ4AjniQIBwqUylwcSBE2u_jk/edit?tab=t.0)). 
+I, alongside three teammates, designed and built an autonomous robot from scratch capable of traversing an obstacle course filled with rough terrain, traps, and chasms. The goal: retrieve treasures and deliver them to the finish line for the Engineering Physics "Robot Summer" competition ([full details here](https://docs.google.com/document/d/1w-FPY5TIh77HwoJq-ieJ4AjniQIBwqUylwcSBE2u_jk/edit?tab=t.0)). 
 
 I primarily focused on:
 - **Designing and building the arm**: A three-degree-of-freedom mechanical arm that extends up to 10 inches and rotates 60° to either side. I achieved this using servo motors, a stepper motor-driven rack and pinion, and a sonar sensor for precise treasure detection. 
